@@ -7,4 +7,8 @@ def main(n,x):
     Returns:
         result : int
     """
-    return 
+    a = pow(x, n)
+    b = pow(n, x)
+    c = a+b
+    return c
+print(main(3,6))
